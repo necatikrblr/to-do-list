@@ -48,10 +48,8 @@ ekleButton.addEventListener("click", () => {
 
     gorevItem.appendChild(silButon);
     liste.appendChild(gorevItem);
-
     kayitliGorevler.push(yeniGorev);
     localStorage.setItem("gorevler", JSON.stringify(kayitliGorevler));
-
     input.value = "";
   }
 });
